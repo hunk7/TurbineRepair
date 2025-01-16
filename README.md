@@ -56,7 +56,7 @@ Below is a list of API endpoints with their respective input and output. Please 
 Endpoint
 
 ```
-http://localhost:7041/api/swagger/ui
+http://localhost:7041/api/TurbineRepair
 
 {
   "hours": 432,
