@@ -4,9 +4,11 @@
 .NET Core 8 Azure Function API to determine whether an emergency repair on a wind turbine is cost-effective or Not.
 
 hours:	The estimated time to make a turbine repair, up to the nearest whole hour.
+
 capacity:	The capacity of the turbine, in kilowatts.
 
 The function then calculates how much a repair costs, and how much revenue the turbine could make in a 24-hour period. Parameters are supplied either in the query string or in the payload of a POST request.
+
 This function code returns a message of Yes or No to indicate whether an emergency repair is cost-effective. It also returns the revenue opportunity that the turbine represents and the cost to fix the turbine.
 
 ## Project References
